@@ -20,7 +20,7 @@ import Order from "./routes/orderRoutes.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-if (process.env.NODE_ENV !== "PRODUCTION") {
+if (process.env.NODE_ENV === "PRODUCTION") {
   dotenv.config({ path: "./config/config.env" });
 }
 
