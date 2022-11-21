@@ -3,7 +3,7 @@ import catchasyncError from "../middleWare/catchAsyncErrors.js";
 import asyncError from "../middleWare/catchAsyncErrors.js";
 
 import { User } from "../models/userModal.js";
-import sendToken from "../utilis/JWTToken.js";
+import sendToken from "../utilis/jwtToken.js";
 import sendEmail from "../utilis/sendEmail.js";
 import crypto from "crypto";
 import ErrorHandler from "../utilis/errorHandler.js";
