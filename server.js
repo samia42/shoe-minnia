@@ -13,6 +13,7 @@ process.on("uncaughtException", (err) => {
 if (process.env.NODE_ENV !== "PRODUCTION") {
   dotenv.config({ path: "./config/config.env" });
 }
+else
 dotenv.config({path:"./config/config.env" })
 Connection();
 const port = process.env.PORT || 5000;
