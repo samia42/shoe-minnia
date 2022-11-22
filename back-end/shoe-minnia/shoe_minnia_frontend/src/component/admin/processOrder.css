@@ -1,0 +1,104 @@
+.updateOrderForm {
+  margin: 5vmax 0;
+  padding: 3vmax;
+  background-color: white;
+}
+.confirmshippingArea {
+  text-align: start;
+  padding-left: 2vmax;
+}
+.confirmshippingArea > :first-child {
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #393939;
+  margin-bottom: 30px;
+}
+.orderDetailsContainerBox > div {
+  display: grid;
+  grid-template-columns: 0.3fr 1.5fr;
+}
+.orderDetailsContainerBox > div > span {
+  font: 600;
+  color: #35185a;
+  margin-left: 10px;
+}
+.confirmOrderPage {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.payment > :first-child {
+  font: 600;
+  color: #35185a;
+  text-align: center;
+  margin-top: 20px;
+  border-bottom: 1px solid #35185a;
+  margin-bottom: 30px;
+}
+.payment > div > p {
+  color: green;
+}
+.payment > div > div > p {
+  font: 600;
+  color: #35185a;
+  margin-bottom: 20px;
+}
+.orders-status > :first-child {
+  color: #35185a;
+  margin-bottom: 10px;
+}
+
+.updateOrderForm > div {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.greenColor {
+  color: green;
+}
+.redColor {
+  color: red;
+}
+.updateOrderForm > div > select {
+  padding: 1vmax 4vmax;
+  margin: 2rem 0;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  font: 300 0.9vmax cursive;
+  outline: none;
+}
+
+.updateOrderForm > div > svg {
+  position: absolute;
+  transform: translateX(1vmax);
+  font-size: 1.6vmax;
+  color: rgba(0, 0, 0, 0.623);
+}
+.confirmCartItems > :first-child {
+  font: 600;
+  color: #35185a;
+  border-top: 1px solid #35185a;
+  padding-top: 1vmax;
+  margin-top: 20px;
+}
+.cart-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .updateOrderForm {
+    padding: 5vmax;
+  }
+
+  .updateOrderForm > div > select {
+    padding: 2.5vmax 5vmax;
+    font: 300 1.7vmax cursive;
+  }
+
+  .updateOrderForm > div > svg {
+    font-size: 2.8vmax;
+  }
+}
