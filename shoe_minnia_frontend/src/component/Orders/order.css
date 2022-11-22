@@ -1,0 +1,51 @@
+.table-container {
+  margin-right: 1vmax;
+  padding: 0px 1vmax;
+  margin-top: 2vmax;
+}
+.table-head {
+  background-color: #bb84e8;
+  color: white !important;
+}
+.table-head-row > * {
+  color: white !important;
+}
+.order-detail-container {
+  padding: 2vmax;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.order-heading {
+  color: #523676;
+  font: 600 "Roboto";
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 1px solid #35185a;
+}
+.shipping-info {
+  width: 30vw;
+  border-bottom: 1px solid #35185a;
+}
+.shipping-info > :first-child {
+  padding: 2vmax 0vmax;
+  font-weight: 600;
+  color: #35185a;
+}
+.order-item {
+  display: flex;
+  align-items: center;
+}
+.item-image {
+  padding: 1vmax;
+}
+.price {
+  color: #35185a;
+  font-weight: 600;
+}
+.order-item {
+  font-weight: 600;
+  color: #35185a;
+  padding: 2vmax 0vmax;
+}

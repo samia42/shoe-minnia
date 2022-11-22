@@ -1,0 +1,21 @@
+.success-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100vh;
+}
+.success-box {
+  display: flex;
+  height: 80vh;
+
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.success-box > button {
+  margin: 1vmax;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}
