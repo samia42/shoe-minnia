@@ -1,0 +1,20 @@
+.payment-outer > button {
+  width: 100%;
+
+  margin-top: 1vmax;
+}
+.payment-outer {
+  text-align: center;
+  padding: 0.5vmax;
+  font-weight: 600;
+  font-size: large;
+  width: 30vw;
+}
+.payment-elements {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  border-top: 1px solid violet;
+  padding-top: 30px;
+}
